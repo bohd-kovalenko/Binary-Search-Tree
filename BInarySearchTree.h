@@ -44,6 +44,7 @@ private:
     int internalHeightFinder(Node *biggerSubtree);
 
     void internalFindInRange(Node *subtree, Data minObject, Data maxObject, vector<Data> &result);
-    void internalInorderTraversal(Node* currNode);
+
+    void internalInorderTraversal(Node *currNode);
 
 };
